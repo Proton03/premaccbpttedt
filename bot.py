@@ -449,8 +449,8 @@ async def accounts(_, message: Message):
 
 ** 👥Members Counts in Our channels:**
 
-✪ Mafi Official : `{countma}`
-✪ Mafia Proof :`{countm}`
+✪ Wonder Official : `{countma}`
+✪ Wonder Proof :`{countm}`
 ✪ Developer Main :`{counts}`
 
 ** 🗃Storage usage:**
