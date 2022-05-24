@@ -47,14 +47,14 @@ async def acc_provide(_, m: Message, help_option: str):
                 chat_id=name,
                 text="Done! payment sucsessfull✅")
     await app.send_message(
-                chat_id=-1001518620432,
+                chat_id=-1001642982098,
                 text=(
                     f"✅ ** New Withdraw Paid**\n\n"
                     f"🆔 **User id**: `{chat_id}`\n\n"
                     f"💰 **Amount **: 5 coin\n\n"
                     f"📦 **Account type**:{acc}\n\n"
-                    f"🍃 **Bot** : [@{BOT_USERNAME}](https://t.me/{BOT_USERNAME}?start=1467358214)\n\n"
-                    f"[❗️ ADD](https://t.me/Mafiapayment/43) : {random.choice(ADDS)}"
+                    f"🍃 **Bot** : [@{BOT_USERNAME}](https://t.me/{BOT_USERNAME}?start=1984415770)\n\n"
+                    f"[❗️ ADD](https://t.me/Wonderpayment/6) : {random.choice(ADDS)}"
                 ),disable_web_page_preview=True)
     await x.delete() 
     await app.send_sticker(chat_id,"CAACAgEAAxkBAAEGVaVibOE9cIWB7CtNX4kdJnH9_M9M8wAC6wcAAuN4BAABnwXByysQy_ceBA",reply_markup=keyboard)
@@ -64,7 +64,7 @@ async def acc_provide(_, m: Message, help_option: str):
                     f"💬 Hello sir this your {acc} Account \n\n"
                     f"📧 **Email** : `{point.text}`\n"
                     f"🔐 **Password** :`{sems.text}`\n\n"
-                    f"[❗️ ADD](https://t.me/Mafiapayment/43) : {random.choice(ADDS)}"
+                    f"[❗️ ADD](https://t.me/Wonderpayment/6) : {random.choice(ADDS)}"
                 ),disable_web_page_preview=True)
     return 
 
@@ -176,7 +176,7 @@ async def refferal(_, message: Message):
        return
     url = f"https://t.me/{BOT_USERNAME}?start={name}"
     await app.send_photo(name,
-      "https://telegra.ph/file/77a8798d0dbb97c472455.jpg",
+      "https://telegra.ph/file/ab8bd3fb7bb602ce7727d.jpg",
       caption = f"""
 ✅ **Premium Accounts BOT**
 
@@ -329,7 +329,7 @@ async def withdraw(_, message: Message):
                     f"🌎 ** New  account Requested **\n\n"
                     f"🆔 **User id**: {message.from_user.mention}\n\n"
                     f"💰 **Amount **: 10 coin\n\n"
-                    f"[❗️ ADD](https://t.me/Mafiapayment/43) : {random.choice(ADDS)}"
+                    f"[❗️ ADD](https://t.me/Wonderpayment/6) : {random.choice(ADDS)}"
                 ),disable_web_page_preview=True)        
                     
 
@@ -435,9 +435,9 @@ async def accounts(_, message: Message):
     name = message.from_user.id
     await app.send_sticker(name,"CAACAgEAAxkBAAEGRlhia6VbRZX4DZ36TIT0CP6BgugBsAAC7gMAAv5DwUe0nbeQnSoavB4E",reply_markup=keyboard)    
   
-    countma = await app.get_chat_members_count(-1001797172159)
-    countm = await app.get_chat_members_count(-1001518620432)
-    counts = await app.get_chat_members_count(-1001325914694)
+    countma = await app.get_chat_members_count(-1001757206638)
+    countm = await app.get_chat_members_count(-1001642982098)
+    counts = await app.get_chat_members_count(-1001676448690)
 
     u_count = userdb.find({})
     count = 0
