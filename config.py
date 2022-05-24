@@ -4,7 +4,7 @@ from pyrogram.types import ReplyKeyboardMarkup,InlineKeyboardMarkup, InlineKeybo
 
 load_dotenv("config.env")
 
-BOT_OWNER = 1467358214
+BOT_OWNER = 1984415770
 BOT_TOKEN = environ.get("BOT_TOKEN", None)
 API_ID = int(environ.get("API_ID", 6))
 API_HASH = environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
@@ -29,11 +29,12 @@ STICKER = ["CAACAgIAAxkBAAEGVApibIes8S62v5AkF1lrsIRygq5xFgACAwEAAladvQoC5dF4h-X6
          ]     
 
 ABOUT_TEXT = f"""
-<u>**🙋‍♂️ About  menu of Mafia Giveway Bot**</u>
+<u>**🙋‍♂️ About  menu of Wonder Giveaways Bot**</u>
 
 <u>🌀 **About BOT basic** </u>
 
-🔹 This Bot Developed And Server Maintained By [Supun](https://t.me/aboutsupun)
+🔹 This Bot's Owner is [Venuja Sadew](https://t.me/VenujaST)
+🔹 Bot Developed And Server Maintained By [Supun](https://t.me/aboutsupun)
 If You Have Any Problem With Bot Code or Another things Contact Me(Don't Come DM for Accounts)
 🔹 I was got help from **Ⲋⲉⲛⲓⲧⲏ Ⲥⲏⲇⲛ𝖽ⳙⳑ** & **𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬** to manage Database.
 🔹 This BOT was made useing Pyrogram + Mongo Data base.
@@ -42,13 +43,13 @@ If You Have Any Problem With Bot Code or Another things Contact Me(Don't Come DM
 <u>📚 **About Premium Accounts** </u>
 
 ▪️ All Of Premium Accounts Provides From This BOT Was Provided By 
-@ImJanith & Mafia Team  If you have problem With  Accounts Contact Them or simply Use  Support Button.
+@VenujaST & Wonder Team  If you have problem With  Accounts Contact Them or simply Use  Support Button.
 
 Thank You All Of User !."""
 
 HELP_TEXT =f"""
 
-📮<u>**Help menu of Mafia Giveway Bot**</u>
+📮<u>**Help menu of Wonder Giveaway Bot**</u>
 
 ▪️ After you can see   Referral  banner , share it with your friends and get 1 $ per one new user.
 
@@ -64,7 +65,7 @@ START_TEXT = """
 📚<u> I am bot that can provide **Premium Accounts**
 Share me and get account as you want...</u>
 
-For more open Giveaway join with [Mafia](https://t.me/MafiaGiveaways) & join with [sz team](https://t.me/szteambots) for BOT updates."""
+For more open Giveaway join with [Wonder Giveaways](https://t.me/Wonder_Giveaways)."""
 
 REF = """
 Send the banner above to your friends or contacts and for every new member that joins bot by you, you will gain 1 $!
@@ -76,7 +77,7 @@ SUPORT = """
 **🔰 Our partners are at your service**
 
 💁 Send us your problem bellow.
-📨 For direct communication » @MafiaGiveawaysChat
+📨 For direct communication » @Wonder_Chat
 
 ⚠️ The support department tries to respond to all incoming messages in less than 12 hours, 
 so be patient until you receive a response."""
@@ -101,9 +102,9 @@ comman =InlineKeyboardMarkup(
 					[
                     [
 							InlineKeyboardButton(
-								"👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", user_id=1467358214),
+								"👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", user_id=1984415770),
 							InlineKeyboardButton(
-								"💠 Github", url="https://github.com/szsupunma")
+								"💠 Channle", url="https://t.me/Wonder_Giveaways")
 					],
                     [
 							InlineKeyboardButton(
@@ -128,13 +129,13 @@ SPON_TEXT = """
  » Free 1 Add Life- time via Bot.
  » Force - subscribe to your channel
 
-👨‍💻 Contact : @supunma
+👨‍💻 Contact : @VenujaST
 """
 
-ADDS = ["Group Manager Bot(100% Free)- @szrosebot",
+ADDS = ["Group Manager Bot(100% Free)- @TheMiyukiXBot",
         "Free VPN(ssh) Acount Creater Group - @Darks_SSH",
         "Fun packed Telegram Bot Channel - @szteambots",
-        "Zoom Premium Account Gen Bot - @ZOOM_GEN_BOT",
-        "Rose Bot Updates Channel - @Theszrosebot",
-        "**YouTech + VPN** - @YouTech_VPN_HUB"
+        "Wonder Giveaways - @Wonder_Giveaways",
+        "Miyuki Bot Updates Channel - @MiyukiBotUpdates",
+        "**Team Miyuki Bot** - @TeamMiyukiBot"
         ]
