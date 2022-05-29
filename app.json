@@ -9,7 +9,7 @@
     ],
     "repository": "https://github.com/szsupunma",
     "website": "https://supun.ml",
-    "success_url": "https://t.me/WonderPremiumAccBot",
+    "success_url": "https://t.me/Gibrkabot",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org",
